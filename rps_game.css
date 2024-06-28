@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;  
+    text-align:center;
+}
+h1{
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+    height: 5rem;
+    line-height:5rem;
+}
+/* div name choices */
+.choice{            
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.choice:hover{
+    /* hover krne par image blur hojaaye */
+    opacity: 0.5;
+    cursor: pointer;
+    background-color:rgb(0, 0, 0) ;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    /* to make sqaure figure circle */
+    border-radius:50%;
+}
+.choices{
+    /* display ek line me hogya */
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+    gap:3rem;
+    margin-top:5rem;
+}
+/* we want ki scoreboard left ki traf humara aajaye aur right ki traf computer ka aajaye */
+.score-board{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:3rem;
+    margin-top:3rem ;
+    gap:5rem;
+}
+/* yh id k naam hai */
+#user-score{
+    font-size:3rem;
+}
+#comp-score{
+    font-size:3rem;
+}
+/* agr class k lea likhte hai to . */
+
+
+/* agr id k lea likhte hai to # */
+#msg{
+    background-color: rgb(53, 226, 220);
+    color:#0c0505;
+    font-size:2rem;
+    display: inline;
+    padding:0.2rem;
+    border-radius: 1rem;
+    gap: 5rem;
+    margin-top:9rem 
+
+
+
+}
